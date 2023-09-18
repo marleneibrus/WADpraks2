@@ -74,25 +74,25 @@
           </tfoot>
       </table>
   </section><br/>
+  <br>
+  <br>
+  <br>
   <section>
-    <form method="get">
-      <label>Course title</label>
+    <form method="get" action="/addNewCourse">
+      <label>Course title:</label>
+      <br>
       <input/>
-    </form>
-    <form>
-      <label>Semester</label>
+      <br/>
+      <label>Semester:</label>
+      <br>
       <select name="semester">
         <option value="Fall">Fall</option>
         <option value="Spring">Spring</option>
-      </select>
-    </form>
-    <form>
+      </select><br/>
       <legend><strong>Attendace</strong></legend>
-        <input type="radio" id="virtual" /><label for="virtual">Virtual attendance</label><br />
-        <input type="radio" id="physical" /><label for="physical">Physical attendance</label><br />
-    </form>
-    <form>
-      <button>Submit</button>
+        <input name="attendance" type="radio" id="virtual" /><label for="virtual">Virtual attendance</label><br />
+        <input name="attendance" type="radio" id="physical" /><label for="physical">Physical attendance</label><br />
+        <button type="submit">Submit</button><br/>
     </form>
   </section>
   </header>
